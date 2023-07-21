@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soylent</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+
+        height: 10vh;
+        width: 100vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul li {
+        display: inline-block;
+        justify-content: space-between;
+        margin-right: 8px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    ul li:hover {
+        background-color: peachpuff;
+    }
+
+    #soylent {
+        border: 2.5px solid black;
+        padding: 9px;
+        font-weight: 600;
+    }
+
+    .main {
+        height: 60vh;
+        width: 88vw;
+        margin-left: 6vw;
+        background-color: peachpuff;
+        padding: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+
+    .content {
+        width: 40vw;
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+    .content p {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+
+    .img img {
+        height: 15rem;
+        width: 15rem;
+
+
+    }
+
+    .btn {
+        color: white;
+        background-color: hotpink;
+        border: 1px solid rgb(221, 115, 168);
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: 500;
+        box-shadow: 3px 3px black;
+        margin-top: 1.5rem;
+    }
+
+    .btn:hover {
+        background-color: rgb(243, 151, 197);
+    }
+
+    .tagline {
+        font-size: 18px;
+        margin-left: 10rem;
+        margin-top: 1rem;
+    }
+
+   
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li id="soylent">Soylent</li>
+            <li>Drink</li>
+            <li>Cafe</li>
+            <li>Powder</li>
+            <li>All Product</li>
+        </ul>
+        <ul>
+
+            <li>Login</li>
+            <li>Refer</li>
+            <li>Cart</li>
+
+        </ul>
+    </nav>
+
+    <div class="main">
+        <section class="img">
+            <img src="assets/images/Fruit-Transparent.png" alt"Fruit">
+
+        </section>
+        <section class="content">
+            <h1>Fruit is back!</h1>
+            <p>soylent strawberry is like the strawberry milk you loved as a kid butit has 20g of protein of your daily
+                recommended microcrontients and your mom doesn't have to make you.</p>
+            <button type="submit" class="btn">shop now</button>
+        </section>
+    </div>
+    <p class="tagline">now two bottles to serve you <a href="#">click here</a> to learn more about our new bottle. </p>
+    <br>
+    <hr>
+</body>
+
+</html>
